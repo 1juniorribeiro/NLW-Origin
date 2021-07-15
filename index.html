@@ -9,6 +9,12 @@
     <!-- ICONS -->
     <link rel="stylesheet" href="assets/style.css" />
 
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
     <!-- STYLES -->
     <link rel="stylesheet" href="style.css" />
 
@@ -137,16 +143,105 @@
       <div class="divider-1"></div>
 
       <section class="section" id="testimonials">
-        <div class="container grid">Testimonials</div>
+        <div class="container">
+          <header>
+            <h2 class="title">
+              Testimonials from those who have been through here
+            </h2>
+          </header>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Alias distinctio sapiente hic aspernatur explicabo, optio
+                    facilis debitis sequi
+                  </p>
+                  <cite>
+                    <img
+                      src="/assets/testimonials1.jpg"
+                      alt="Picture for Wanessa Souza"
+                    />
+                    Wanessa Souza
+                  </cite>
+                </blockquote>
+              </div>
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Alias distinctio sapiente hic aspernatur explicabo, optio
+                    facilis debitis sequi
+                  </p>
+                  <cite>
+                    <img
+                      src="/assets/testimonials2.jpg"
+                      alt="Picture for Estefane Campos"
+                    />
+                    Estefane Campos
+                  </cite>
+                </blockquote>
+              </div>
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Alias distinctio sapiente hic aspernatur explicabo, optio
+                    facilis debitis sequi
+                  </p>
+                  <cite>
+                    <img
+                      src="/assets/testimonials3.jpg"
+                      alt="Picture for Jhenifer Evangelista"
+                    />
+                    Jhenifer Evangelista
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
       </section>
 
       <div class="divider-2"></div>
 
       <section class="section" id="contact">
-        <div class="container grid">Contact</div>
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Contact us</h2>
+            <p>Contact us to send us your criticisms and suggestions.</p>
+            <a
+              href="https://wa.me/5565993351316/?text=Eu%20gostaria%20de%20marcar%20um horario%20ou%20conhecer%20o%20salão"
+              class="button"
+              target="_blank"
+            >
+              <i class="icon-whatsapp"></i> Contact us</a
+            >
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i>65 99335-7070</li>
+              <li><i class="icon-map-pin"></i> Rua Dos perdidos, 404</li>
+              <li><i class="icon-mail"></i> mandaemail@la.emcasa</li>
+            </ul>
+          </div>
+        </div>
       </section>
     </main>
 
+    <!-- Swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Scroll Reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- main.js-->
     <script src="/main.js"></script>
   </body>
 </html>
